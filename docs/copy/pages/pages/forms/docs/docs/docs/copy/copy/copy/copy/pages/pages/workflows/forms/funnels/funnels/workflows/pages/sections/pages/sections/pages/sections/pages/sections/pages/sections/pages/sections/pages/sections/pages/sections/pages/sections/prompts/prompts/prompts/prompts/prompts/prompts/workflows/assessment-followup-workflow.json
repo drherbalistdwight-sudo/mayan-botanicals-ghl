@@ -1,0 +1,30 @@
+{
+  "workflow_name": "Assessment Follow-Up Workflow",
+  "trigger": "Form Submitted: Wellness Assessment",
+  "steps": [
+    {
+      "action": "Add Tag",
+      "value": "source_assessment"
+    },
+    {
+      "action": "Create Opportunity",
+      "value": "Wellness Client Pipeline"
+    },
+    {
+      "action": "Send SMS",
+      "template": "Assessment Submitted"
+    },
+    {
+      "action": "Send Email",
+      "template": "Assessment Confirmation"
+    },
+    {
+      "action": "Wait",
+      "value": "1 day"
+    },
+    {
+      "action": "Send SMS",
+      "template": "Follow-Up"
+    }
+  ]
+}
