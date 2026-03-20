@@ -1,0 +1,14 @@
+{
+  "pipeline_name": "Wellness Client Pipeline",
+  "stages": [
+    "New Lead",
+    "Assessment Completed",
+    "Hot Lead",
+    "Consultation Booked",
+    "Consultation Completed",
+    "Protocol Sent",
+    "Closed Won",
+    "Closed Lost",
+    "Nurture"
+  ]
+}
