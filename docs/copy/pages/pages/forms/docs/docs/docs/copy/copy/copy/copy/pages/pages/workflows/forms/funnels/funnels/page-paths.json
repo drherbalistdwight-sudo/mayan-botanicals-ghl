@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "name": "Landing Page",
+      "path": "/"
+    },
+    {
+      "name": "Assessment Page",
+      "path": "/assessment"
+    },
+    {
+      "name": "Booking Page",
+      "path": "/booking"
+    },
+    {
+      "name": "Thank You Page",
+      "path": "/thank-you"
+    }
+  ]
+}
