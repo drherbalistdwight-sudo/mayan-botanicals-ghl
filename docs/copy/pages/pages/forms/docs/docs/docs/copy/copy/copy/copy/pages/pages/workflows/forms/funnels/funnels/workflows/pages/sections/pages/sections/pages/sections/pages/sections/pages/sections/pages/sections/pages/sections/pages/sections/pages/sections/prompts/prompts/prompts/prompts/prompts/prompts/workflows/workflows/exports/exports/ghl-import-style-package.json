@@ -1,0 +1,26 @@
+{
+  "package_name": "mayan_botanicals_snapshot_package",
+  "type": "implementation_blueprint",
+  "pages": [
+    "landing-page.html",
+    "assessment-page.html",
+    "booking-page.html",
+    "thank-you-page.html"
+  ],
+  "forms": [
+    "wellness-assessment.json",
+    "custom-fields.json",
+    "tags.json"
+  ],
+  "workflows": [
+    "assessment-followup-workflow.json",
+    "booking-workflow.json"
+  ],
+  "prompts": [
+    "claude-master-prompt.md",
+    "landing-page-prompt.md",
+    "assessment-page-prompt.md",
+    "booking-page-prompt.md",
+    "thank-you-page-prompt.md"
+  ]
+}
