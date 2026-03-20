@@ -1,0 +1,15 @@
+{
+  "workflow_name": "Wellness Lead Conversion Engine",
+  "trigger": "Form Submitted: Wellness Assessment",
+  "actions": [
+    "Add tag: source_assessment",
+    "Create opportunity",
+    "Apply condition tag",
+    "Apply readiness tag",
+    "Set lead temperature",
+    "Send SMS",
+    "Send Email",
+    "Wait 1 day",
+    "Send follow-up SMS"
+  ]
+}
