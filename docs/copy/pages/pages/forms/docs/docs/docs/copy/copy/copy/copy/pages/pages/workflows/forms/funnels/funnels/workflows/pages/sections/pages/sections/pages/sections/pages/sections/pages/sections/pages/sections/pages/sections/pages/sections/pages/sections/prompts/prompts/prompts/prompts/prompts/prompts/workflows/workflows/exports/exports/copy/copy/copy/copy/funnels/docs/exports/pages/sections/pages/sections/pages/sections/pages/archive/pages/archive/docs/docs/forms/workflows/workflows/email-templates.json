@@ -1,0 +1,14 @@
+{
+  "templates": [
+    {
+      "name": "Assessment Confirmation",
+      "subject": "Your Personalized Wellness Plan Starts Here",
+      "body": "Hi {{contact.first_name}},\n\nThank you for completing your wellness assessment.\n\nBased on your responses, you may be a strong candidate for our structured herbal wellness support approach.\n\nBook your free consultation here:\n{{calendar_link}}\n\nMayan Botanicals\nDocta Herbalist Dwight"
+    },
+    {
+      "name": "Booking Reminder",
+      "subject": "Your Consultation Link",
+      "body": "Hi {{contact.first_name}},\n\nWe'd love to help you take the next step in your wellness journey.\n\nReserve your consultation here:\n{{calendar_link}}\n\nMayan Botanicals"
+    }
+  ]
+}
