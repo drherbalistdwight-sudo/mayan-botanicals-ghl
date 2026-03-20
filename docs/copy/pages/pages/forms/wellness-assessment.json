@@ -1,0 +1,29 @@
+{
+  "form_name": "Wellness Assessment",
+  "steps": [
+    {
+      "step": 1,
+      "fields": ["First Name", "Last Name", "Email", "Phone"]
+    },
+    {
+      "step": 2,
+      "fields": ["Primary Health Concern"]
+    },
+    {
+      "step": 3,
+      "fields": ["Condition Duration"]
+    },
+    {
+      "step": 4,
+      "fields": ["Current Approach"]
+    },
+    {
+      "step": 5,
+      "fields": ["Readiness Level"]
+    },
+    {
+      "step": 6,
+      "fields": ["Open To Herbal Protocol"]
+    }
+  ]
+}
