@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "source_vcard",
+    "source_assessment",
+    "hot_lead",
+    "nurture",
+    "booked_consult",
+    "consult_completed",
+    "protocol_sent",
+    "client_won",
+    "client_lost",
+    "diabetes",
+    "prediabetes",
+    "low_energy",
+    "weight_issues",
+    "other_condition",
+    "ready_now",
+    "ready_soon",
+    "just_exploring",
+    "open_yes",
+    "open_maybe",
+    "open_no"
+  ]
+}
