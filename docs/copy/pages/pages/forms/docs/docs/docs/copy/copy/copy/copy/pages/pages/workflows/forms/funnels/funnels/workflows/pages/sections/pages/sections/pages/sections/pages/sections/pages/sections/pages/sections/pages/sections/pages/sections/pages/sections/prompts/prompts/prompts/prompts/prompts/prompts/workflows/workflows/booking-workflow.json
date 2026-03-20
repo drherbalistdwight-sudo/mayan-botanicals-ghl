@@ -1,0 +1,18 @@
+{
+  "workflow_name": "Booking Workflow",
+  "trigger": "Appointment Booked: Free 15-Minute Wellness Consultation",
+  "steps": [
+    {
+      "action": "Add Tag",
+      "value": "booked_consult"
+    },
+    {
+      "action": "Move Opportunity",
+      "value": "Consultation Booked"
+    },
+    {
+      "action": "Send SMS",
+      "template": "Booking Confirmation"
+    }
+  ]
+}
