@@ -1,0 +1,19 @@
+{
+  "snapshot_name": "Mayan Botanicals Conversion Engine",
+  "includes": [
+    "pipeline",
+    "tags",
+    "custom_fields",
+    "assessment_form",
+    "consultation_calendar",
+    "landing_page",
+    "assessment_page",
+    "booking_page",
+    "thank_you_page",
+    "email_templates",
+    "sms_templates",
+    "assessment_workflow",
+    "booking_workflow"
+  ],
+  "deployment_target": "GoHighLevel"
+}
